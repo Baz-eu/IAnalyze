@@ -13,11 +13,11 @@ import anthropic
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
 
-from scanner.config import (
+from config import (
     ANTHROPIC_MODEL, SECURITY_SYSTEM_PROMPT,
     SECURITY_JSON_SCHEMA, MAX_CONCURRENCY
 )
-from scanner.ast_chunker import CodeChunk
+from ast_chunker import CodeChunk
 
 console = Console()
 

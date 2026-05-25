@@ -7,7 +7,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
-from scanner.analyzer import ChunkResult, Vulnerability
+from analyzer import ChunkResult, Vulnerability
 
 
 SEVERITY_ORDER = {"CRITICAL": 0, "HIGH": 1, "MEDIUM": 2, "LOW": 3, "INFO": 4}

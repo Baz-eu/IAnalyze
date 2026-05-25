@@ -22,11 +22,11 @@ from rich.table import Table
 # Ajoute le dossier courant au path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from scanner.downloader import RepoDownloader
-from scanner.ast_chunker import ASTChunker
-from scanner.context_builder import ContextBuilder
-from scanner.analyzer import OpusAnalyzer
-from scanner.report import ReportGenerator
+from downloader import RepoDownloader
+from ast_chunker import ASTChunker
+from context_builder import ContextBuilder
+from analyzer import OpusAnalyzer
+from report import ReportGenerator
 import anthropic
 
 console = Console()

@@ -128,7 +128,7 @@ class RepoDownloader:
 
     def _compute_stats(self, repo_path: Path) -> dict:
         """Calcule des statistiques sur le repo cloné."""
-        from scanner.config import SUPPORTED_EXTENSIONS, CONFIG_FILES, IGNORED_DIRS
+        from config import SUPPORTED_EXTENSIONS, CONFIG_FILES, IGNORED_DIRS
 
         code_files = 0
         config_count = 0

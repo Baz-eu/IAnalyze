@@ -15,7 +15,7 @@ import tree_sitter_python as tspython
 import tree_sitter_javascript as tsjs
 from rich.console import Console
 
-from scanner.config import (
+from config import (
     SUPPORTED_EXTENSIONS, CONFIG_FILES, IGNORED_DIRS,
     AST_NODE_TYPES, MAX_CHUNK_CHARS, FILE_PRIORITY
 )

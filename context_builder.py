@@ -12,7 +12,7 @@ from typing import Optional
 import anthropic
 from rich.console import Console
 
-from scanner.config import (
+from config import (
     IGNORED_DIRS, SUPPORTED_EXTENSIONS,
     ANTHROPIC_MODEL, SECURITY_SYSTEM_PROMPT
 )
